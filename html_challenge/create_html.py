@@ -43,7 +43,7 @@ class ParentWindow(Frame):
 </body>
 </html>""")
         f.close()
-        webbrowser.open("file:///C:/Users/Lyman/Desktop/coding/portfolio_pieces/tech_academy_projects/tech-academy-python-projects/html_challenge/summer_sale.html", new=2)
+        webbrowser.open("summer_sale.html", new=2)
 
     def quit(self):
         self.master.destroy()
